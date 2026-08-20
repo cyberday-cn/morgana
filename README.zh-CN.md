@@ -1,5 +1,7 @@
 # Morgana（蜃楼）
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 ---
 
 ## 1. 核心理念
@@ -563,8 +565,7 @@ UI 模块维护一个结构化的语义状态树，Agent 可随时读取。
       "dataSummary": { "rows": 25, "selectedId": "张三" },
       "state": { "filters": { "等级": "VIP" }, "sort": "创建时间 desc" }
     }
-  },
-  "temporaryPages": ["销售趋势分析"]
+  }
 }
 ```
 
@@ -721,7 +722,7 @@ backend/
     "password": ""
   },
   "pages": {
-    "root": "D:/学习/ClaudeCode/morgana/pages",
+    "root": "./pages",
     "port": 3002
   },
   "tmpfile": {
